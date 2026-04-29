@@ -275,7 +275,7 @@ html, body {
 
   .layout {
     grid-template-columns: 1fr;
-    height: 100vh;
+    height: 100dvh;
     padding-top: 60px;
   }
 
@@ -347,7 +347,7 @@ html, body {
 
   .layout-right {
     padding: 32px 24px 88px;
-    height: calc(100vh - 60px);
+    height: calc(100dvh - 60px);
   }
 
   .photo-wrap {
