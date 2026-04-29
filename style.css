@@ -140,6 +140,7 @@ html, body {
   flex: 0 0 100%;
   background-size: cover;
   background-position: center;
+  transform: translateZ(0);
 }
 
 
