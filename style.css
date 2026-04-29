@@ -8,7 +8,7 @@
 
 html, body {
   height: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background: #fff;
   color: var(--ink);
   overflow: hidden;
@@ -34,7 +34,7 @@ html, body {
 .brand-name {
   font-size: clamp(1.6rem, 2.4vw, 3.2rem);
   font-weight: 200;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
   line-height: 0.92;
   color: var(--ink);
