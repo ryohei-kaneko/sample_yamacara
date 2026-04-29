@@ -355,6 +355,7 @@ html, body {
     flex: 1;
     overflow: hidden;
     cursor: default;
+    touch-action: pan-x;
   }
 
   .photo-track {

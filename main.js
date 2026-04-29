@@ -56,8 +56,9 @@ photoWrap.addEventListener('touchstart', e => {
 }, { passive: true });
 
 photoWrap.addEventListener('touchmove', e => {
+  e.preventDefault();
   setTrack(clamp(touchBase + (e.touches[0].clientX - touchX), maxX(), 0));
-}, { passive: true });
+}, { passive: false });
 
 // ── resize ──
 window.addEventListener('resize', () => {
