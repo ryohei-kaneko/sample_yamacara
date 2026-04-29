@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 56" role="img" aria-label="YAMACARA">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&amp;display=swap');
+    </style>
+  </defs>
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="'Josefin Sans', sans-serif"
+    font-weight="200"
+    font-size="28"
+    letter-spacing="7.84"
+    fill="#1a1a1a"
+  >YAMACARA</text>
+</svg>
