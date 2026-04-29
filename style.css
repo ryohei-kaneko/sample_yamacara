@@ -94,6 +94,8 @@ html, body {
 .brand-link {
   color: var(--ink);
   text-decoration: none;
+  font: inherit;
+  letter-spacing: inherit;
 }
 
 .nav-current {
