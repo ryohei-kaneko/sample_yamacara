@@ -253,6 +253,16 @@ html, body {
 
 .form-submit:hover { opacity: 0.4; }
 
+/* ── SLIDES ── */
+.slide-1 { background-image: url('./images/top01.webp'); }
+.slide-2 { background-image: url('./images/top02.webp'); }
+.slide-3 { background-image: url('./images/top03.webp'); }
+.slide-4 { background-image: url('./images/top04.webp'); }
+.slide-5 { background-image: url('./images/top05.webp'); }
+.slide-6 { background-image: url('./images/top06.webp'); }
+.slide-7 { background-image: url('./images/top07.webp'); }
+.slide-8 { background-image: url('./images/top08.webp'); }
+
 /* hamburger — desktop では非表示 */
 .hamburger { display: none; }
 
@@ -357,14 +367,15 @@ html, body {
   }
 
   .layout-right {
-    padding: 32px 24px 88px;
+    padding: 24px 20px 80px;
     height: calc(100dvh - 60px);
+    justify-content: center;
   }
 
   .photo-wrap {
     flex: 0 0 auto;
     width: 100%;
-    height: min(80vw, 52vh);
+    height: 70vh;
     overflow: hidden;
     clip-path: none;
     cursor: default;
@@ -381,6 +392,15 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .slide-1 { background-image: url('./images/top01_sp.webp'); }
+  .slide-2 { background-image: url('./images/top02_sp.webp'); }
+  .slide-3 { background-image: url('./images/top03_sp.webp'); }
+  .slide-4 { background-image: url('./images/top04_sp.webp'); }
+  .slide-5 { background-image: url('./images/top05_sp.webp'); }
+  .slide-6 { background-image: url('./images/top06_sp.webp'); }
+  .slide-7 { background-image: url('./images/top07_sp.webp'); }
+  .slide-8 { background-image: url('./images/top08_sp.webp'); }
 
   .contact-form { width: 100%; }
 }
